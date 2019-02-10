@@ -23,5 +23,5 @@ Check out the [reference](https://cordova.apache.org/docs/en/latest/reference/co
 
 ## Screenshot
 
-<img src="/images/screen_shot.png" width="200" height="600" alt="App screenshot" />
+<img src="/images/screen_shot.png" width="275" height="600" alt="App screenshot" />
 
