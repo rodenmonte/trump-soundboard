@@ -7,22 +7,22 @@
 
 <script>
 export default {
-  name: "SoundButton",
-  props: ["image", "sound", "text"],
-  data() {
-    return {};
+  name: 'SoundButton',
+  props: ['image', 'sound', 'text'],
+  data () {
+    return {}
   },
   methods: {
-    playSound() {
-      this.$emit("stop");
-      this.sound.play();
+    playSound () {
+      this.$emit('stop')
+      this.sound.play()
     },
-    stop() {
-      this.sound.pause();
-      this.sound.currentTime = 0;
+    stop () {
+      this.sound.pause()
+      this.sound.currentTime = 0
     }
   }
-};
+}
 </script>
 
 <style>
@@ -40,12 +40,8 @@ img {
 }
 .text {
   color: white;
-  text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
   position: absolute;
   top: 40%;
   left: 50%;

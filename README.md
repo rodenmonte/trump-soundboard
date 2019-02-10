@@ -1,4 +1,4 @@
-# soundboard
+# Trump Soundboard
 
 > A Vue.js Trump soundboard
 
