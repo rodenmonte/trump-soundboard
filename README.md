@@ -20,3 +20,8 @@ npm run build
 
 You can use cordova to bundle this project into various phone apps
 Check out the [reference](https://cordova.apache.org/docs/en/latest/reference/cordova-cli/).
+
+## Screenshot
+
+<img src="/images/screen_shot.png" width="200" height="600" alt="App screenshot" />
+
